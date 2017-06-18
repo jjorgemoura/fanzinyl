@@ -1,0 +1,20 @@
+language: objective-c
+os: osx
+osx_image: xcode8.3
+xcode_sdk: iphonesimulator10.3
+
+xcode_project: fanzinyl.xcodeproj
+
+script:
+- xcodebuild -project fanzinyl.xcodeproj -scheme fanzinyl-iOS -configuration Debug -sdk iphonesimulator -destination "OS=10.3.1,name=iPhone 7" CODE_SIGNING_REQUIRED=NO clean build test analyze
+
+after_success:
+- bash <(curl -s https://codecov.io/bash) -J 'fanzinyl'
+
+notifications:
+  email: false
+  slack:
+    rooms:
+      secure: qXAiv5YvRE42fOSLDlh1pjorX1ltVPblKzPh1+stI9ELenMSHtBQO3Jui4nYAqb6fBvrccPYzOopo8Y5CzsQUXhK9boyRogAxIeU1zJHZE5jNwX3tbiEhHbhI3ASZSdbvAilBWH0MhBzxrExltqcaJO3I+jYyBS90d49GlBi3wZvt72vfyilXRljqmPE5HPX74U70klSAt2v9RJpuNRQLe+l9bMx2dVsvYNtL4ELqRcA6VZ1lf+/tbYdXXXuxLLBvp3/ISh3hzGMWionr0HgJesaycZr23kVMg1weAkiQsPe2bNWjXqwmS537U0r1IG3sZZWaBO193FD+kaptUh9+Oc5ohPiaijNlBWkYW7E4ZEwcXTpabTTydOtvnhKxnLtFLGZMw/sTTF1Kl64q8+TLhNSzTHftton3/vBDUdhKPprSs4TtmCJypMNPncjB4fNgITus2RN1D4A0ZPL+czQe9Bs+OjJtaC2lSUr5dPxhkEprL1EUUUbe6aU54rb/IeQXpAnMnqigBxZzeNAoInbBc1Qd2hRe+VazpQm/gSvjLIrJCa+blqgOUG6ZYowOhJuUWfKw7rbXTLrkQXnYS9rYf8JO2FLoVYv6237QbaNLXdey6BDUxfGt3eGqXijBvWacg0CH+c79QaNdmZ6pEUW2YvOCQcZb1cG0BeF5QfVX+w=
+    on_success: always
+    on_failure: always
