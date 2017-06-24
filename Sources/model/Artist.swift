@@ -5,11 +5,15 @@
 //  Created by Jorge Moura on 24/06/2017.
 //
 
-typealias ArtistIdentifier = [String: MusicService]
-
 public struct Artist {
 
     let identifier: ArtistIdentifier
     let name: String
-    let isSuperGroup: Bool = false
+    let isSuperGroup: Bool
+
+    init(identifier: ArtistIdentifier, name: String, superGroup: Bool = false) {
+        self.identifier = identifier
+        self.name = name
+        self.isSuperGroup = superGroup
+    }
 }

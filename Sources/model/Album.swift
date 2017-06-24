@@ -5,8 +5,6 @@
 //  Created by Jorge Moura on 24/06/2017.
 //
 
-typealias AlbumIdentifier = [String: MusicService]
-
 public struct Album {
 
     let identifier: AlbumIdentifier

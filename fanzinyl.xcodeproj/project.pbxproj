@@ -32,6 +32,21 @@
 		B42299541EFE75C000BEF0D8 /* Design.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42299531EFE75C000BEF0D8 /* Design.swift */; };
 		B42299551EFE75C000BEF0D8 /* Design.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42299531EFE75C000BEF0D8 /* Design.swift */; };
 		B42299561EFE75C000BEF0D8 /* Design.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42299531EFE75C000BEF0D8 /* Design.swift */; };
+		B42299581EFE8FF400BEF0D8 /* FanzinylService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42299571EFE8FF400BEF0D8 /* FanzinylService.swift */; };
+		B42299591EFE8FF400BEF0D8 /* FanzinylService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42299571EFE8FF400BEF0D8 /* FanzinylService.swift */; };
+		B422995A1EFE8FF400BEF0D8 /* FanzinylService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42299571EFE8FF400BEF0D8 /* FanzinylService.swift */; };
+		B422995C1EFE902A00BEF0D8 /* StandardFanzinylService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B422995B1EFE902A00BEF0D8 /* StandardFanzinylService.swift */; };
+		B422995D1EFE902A00BEF0D8 /* StandardFanzinylService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B422995B1EFE902A00BEF0D8 /* StandardFanzinylService.swift */; };
+		B422995E1EFE902A00BEF0D8 /* StandardFanzinylService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B422995B1EFE902A00BEF0D8 /* StandardFanzinylService.swift */; };
+		B42299601EFE91B500BEF0D8 /* ServiceIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = B422995F1EFE91B500BEF0D8 /* ServiceIdentifier.swift */; };
+		B42299611EFE91B500BEF0D8 /* ServiceIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = B422995F1EFE91B500BEF0D8 /* ServiceIdentifier.swift */; };
+		B42299621EFE91B500BEF0D8 /* ServiceIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = B422995F1EFE91B500BEF0D8 /* ServiceIdentifier.swift */; };
+		B482283E1EFEA2CB0080F139 /* FanzinylCommunicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B482283D1EFEA2CB0080F139 /* FanzinylCommunicator.swift */; };
+		B482283F1EFEA2CB0080F139 /* FanzinylCommunicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B482283D1EFEA2CB0080F139 /* FanzinylCommunicator.swift */; };
+		B48228401EFEA2CB0080F139 /* FanzinylCommunicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B482283D1EFEA2CB0080F139 /* FanzinylCommunicator.swift */; };
+		B48228421EFEA2EF0080F139 /* StandardFanzinylCommunicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48228411EFEA2EF0080F139 /* StandardFanzinylCommunicator.swift */; };
+		B48228431EFEA2EF0080F139 /* StandardFanzinylCommunicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48228411EFEA2EF0080F139 /* StandardFanzinylCommunicator.swift */; };
+		B48228441EFEA2EF0080F139 /* StandardFanzinylCommunicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48228411EFEA2EF0080F139 /* StandardFanzinylCommunicator.swift */; };
 		B4AF8E011EF6C8E7002BC5E8 /* fanzinyl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4AF8DF81EF6C8E7002BC5E8 /* fanzinyl.framework */; };
 		B4AF8E371EF6C957002BC5E8 /* fanzinyl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4AF8E2E1EF6C957002BC5E8 /* fanzinyl.framework */; };
 		B4AF8E591EF6CD83002BC5E8 /* StandardFangineServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AF8E581EF6CD83002BC5E8 /* StandardFangineServiceTests.swift */; };
@@ -66,6 +81,11 @@
 		B422994B1EFE714D00BEF0D8 /* Production.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Production.swift; sourceTree = "<group>"; };
 		B422994F1EFE716800BEF0D8 /* Role.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Role.swift; sourceTree = "<group>"; };
 		B42299531EFE75C000BEF0D8 /* Design.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Design.swift; sourceTree = "<group>"; };
+		B42299571EFE8FF400BEF0D8 /* FanzinylService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FanzinylService.swift; sourceTree = "<group>"; };
+		B422995B1EFE902A00BEF0D8 /* StandardFanzinylService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardFanzinylService.swift; sourceTree = "<group>"; };
+		B422995F1EFE91B500BEF0D8 /* ServiceIdentifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceIdentifier.swift; sourceTree = "<group>"; };
+		B482283D1EFEA2CB0080F139 /* FanzinylCommunicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FanzinylCommunicator.swift; sourceTree = "<group>"; };
+		B48228411EFEA2EF0080F139 /* StandardFanzinylCommunicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardFanzinylCommunicator.swift; sourceTree = "<group>"; };
 		B4AF8DF81EF6C8E7002BC5E8 /* fanzinyl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = fanzinyl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4AF8E001EF6C8E7002BC5E8 /* fanzinyl-iOS-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "fanzinyl-iOS-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4AF8E2E1EF6C957002BC5E8 /* fanzinyl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = fanzinyl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -128,6 +148,7 @@
 				B42299471EFE713A00BEF0D8 /* Instrument.swift */,
 				B422994B1EFE714D00BEF0D8 /* Production.swift */,
 				B42299531EFE75C000BEF0D8 /* Design.swift */,
+				B422995F1EFE91B500BEF0D8 /* ServiceIdentifier.swift */,
 			);
 			name = model;
 			path = Sources/model;
@@ -136,6 +157,8 @@
 		B42299351EFE709200BEF0D8 /* service */ = {
 			isa = PBXGroup;
 			children = (
+				B42299571EFE8FF400BEF0D8 /* FanzinylService.swift */,
+				B422995B1EFE902A00BEF0D8 /* StandardFanzinylService.swift */,
 			);
 			name = service;
 			path = Sources/service;
@@ -144,6 +167,8 @@
 		B42299361EFE709800BEF0D8 /* communicator */ = {
 			isa = PBXGroup;
 			children = (
+				B482283D1EFEA2CB0080F139 /* FanzinylCommunicator.swift */,
+				B48228411EFEA2EF0080F139 /* StandardFanzinylCommunicator.swift */,
 			);
 			name = communicator;
 			path = Sources/communicator;
@@ -179,8 +204,8 @@
 		OBJ_7 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				B42299361EFE709800BEF0D8 /* communicator */,
 				B42299351EFE709200BEF0D8 /* service */,
+				B42299361EFE709800BEF0D8 /* communicator */,
 				B42299341EFE702B00BEF0D8 /* model */,
 				B4AF8E451EF6CA7A002BC5E8 /* Supporting Files */,
 			);
@@ -432,8 +457,13 @@
 				B42299561EFE75C000BEF0D8 /* Design.swift in Sources */,
 				B42299521EFE716800BEF0D8 /* Role.swift in Sources */,
 				B422994E1EFE714D00BEF0D8 /* Production.swift in Sources */,
+				B422995A1EFE8FF400BEF0D8 /* FanzinylService.swift in Sources */,
 				B42299461EFE712A00BEF0D8 /* Personnel.swift in Sources */,
 				B42299421EFE710B00BEF0D8 /* Artist.swift in Sources */,
+				B42299621EFE91B500BEF0D8 /* ServiceIdentifier.swift in Sources */,
+				B422995E1EFE902A00BEF0D8 /* StandardFanzinylService.swift in Sources */,
+				B48228441EFEA2EF0080F139 /* StandardFanzinylCommunicator.swift in Sources */,
+				B48228401EFEA2CB0080F139 /* FanzinylCommunicator.swift in Sources */,
 				B422993A1EFE70DC00BEF0D8 /* MusicService.swift in Sources */,
 				B422993E1EFE710100BEF0D8 /* Album.swift in Sources */,
 			);
@@ -447,8 +477,13 @@
 				B42299541EFE75C000BEF0D8 /* Design.swift in Sources */,
 				B42299501EFE716800BEF0D8 /* Role.swift in Sources */,
 				B422994C1EFE714D00BEF0D8 /* Production.swift in Sources */,
+				B42299581EFE8FF400BEF0D8 /* FanzinylService.swift in Sources */,
 				B42299441EFE712A00BEF0D8 /* Personnel.swift in Sources */,
 				B42299401EFE710B00BEF0D8 /* Artist.swift in Sources */,
+				B42299601EFE91B500BEF0D8 /* ServiceIdentifier.swift in Sources */,
+				B422995C1EFE902A00BEF0D8 /* StandardFanzinylService.swift in Sources */,
+				B48228421EFEA2EF0080F139 /* StandardFanzinylCommunicator.swift in Sources */,
+				B482283E1EFEA2CB0080F139 /* FanzinylCommunicator.swift in Sources */,
 				B42299381EFE70DC00BEF0D8 /* MusicService.swift in Sources */,
 				B422993C1EFE710100BEF0D8 /* Album.swift in Sources */,
 			);
@@ -470,8 +505,13 @@
 				B42299551EFE75C000BEF0D8 /* Design.swift in Sources */,
 				B42299511EFE716800BEF0D8 /* Role.swift in Sources */,
 				B422994D1EFE714D00BEF0D8 /* Production.swift in Sources */,
+				B42299591EFE8FF400BEF0D8 /* FanzinylService.swift in Sources */,
 				B42299451EFE712A00BEF0D8 /* Personnel.swift in Sources */,
 				B42299411EFE710B00BEF0D8 /* Artist.swift in Sources */,
+				B42299611EFE91B500BEF0D8 /* ServiceIdentifier.swift in Sources */,
+				B422995D1EFE902A00BEF0D8 /* StandardFanzinylService.swift in Sources */,
+				B48228431EFEA2EF0080F139 /* StandardFanzinylCommunicator.swift in Sources */,
+				B482283F1EFEA2CB0080F139 /* FanzinylCommunicator.swift in Sources */,
 				B42299391EFE70DC00BEF0D8 /* MusicService.swift in Sources */,
 				B422993D1EFE710100BEF0D8 /* Album.swift in Sources */,
 			);
