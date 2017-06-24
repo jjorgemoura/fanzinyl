@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0830"
+   LastUpgradeVersion = "0900"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B4AF8E2D1EF6C957002BC5E8"
-               BuildableName = "fanzinyl.framework"
-               BlueprintName = "fanzinyl-tvOS"
+               BlueprintIdentifier = "B42299271EFE6AC600BEF0D8"
+               BuildableName = "fanzinyl-iOS10.framework"
+               BlueprintName = "fanzinyl-iOS10"
                ReferencedContainer = "container:fanzinyl.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -34,9 +34,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B4AF8E351EF6C957002BC5E8"
-               BuildableName = "fanzinyl-tvOS-Tests.xctest"
-               BlueprintName = "fanzinyl-tvOS-Tests"
+               BlueprintIdentifier = "B4AF8DFF1EF6C8E7002BC5E8"
+               BuildableName = "fanzinyl-iOS-Tests.xctest"
+               BlueprintName = "fanzinyl-iOS-Tests"
                ReferencedContainer = "container:fanzinyl.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -44,9 +44,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B4AF8E2D1EF6C957002BC5E8"
-            BuildableName = "fanzinyl.framework"
-            BlueprintName = "fanzinyl-tvOS"
+            BlueprintIdentifier = "B42299271EFE6AC600BEF0D8"
+            BuildableName = "fanzinyl-iOS10.framework"
+            BlueprintName = "fanzinyl-iOS10"
             ReferencedContainer = "container:fanzinyl.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -67,9 +67,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B4AF8E2D1EF6C957002BC5E8"
-            BuildableName = "fanzinyl.framework"
-            BlueprintName = "fanzinyl-tvOS"
+            BlueprintIdentifier = "B42299271EFE6AC600BEF0D8"
+            BuildableName = "fanzinyl-iOS10.framework"
+            BlueprintName = "fanzinyl-iOS10"
             ReferencedContainer = "container:fanzinyl.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -85,9 +85,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B4AF8E2D1EF6C957002BC5E8"
-            BuildableName = "fanzinyl.framework"
-            BlueprintName = "fanzinyl-tvOS"
+            BlueprintIdentifier = "B42299271EFE6AC600BEF0D8"
+            BuildableName = "fanzinyl-iOS10.framework"
+            BlueprintName = "fanzinyl-iOS10"
             ReferencedContainer = "container:fanzinyl.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
