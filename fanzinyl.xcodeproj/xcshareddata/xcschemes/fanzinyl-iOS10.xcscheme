@@ -34,9 +34,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B4AF8DFF1EF6C8E7002BC5E8"
-               BuildableName = "fanzinyl-iOS-Tests.xctest"
-               BlueprintName = "fanzinyl-iOS-Tests"
+               BlueprintIdentifier = "B48228481EFEAD8D0080F139"
+               BuildableName = "fanzinyl-iOS10-Tests.xctest"
+               BlueprintName = "fanzinyl-iOS10-Tests"
                ReferencedContainer = "container:fanzinyl.xcodeproj">
             </BuildableReference>
          </TestableReference>

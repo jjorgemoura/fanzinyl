@@ -47,13 +47,20 @@
 		B48228421EFEA2EF0080F139 /* StandardFanzinylCommunicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48228411EFEA2EF0080F139 /* StandardFanzinylCommunicator.swift */; };
 		B48228431EFEA2EF0080F139 /* StandardFanzinylCommunicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48228411EFEA2EF0080F139 /* StandardFanzinylCommunicator.swift */; };
 		B48228441EFEA2EF0080F139 /* StandardFanzinylCommunicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48228411EFEA2EF0080F139 /* StandardFanzinylCommunicator.swift */; };
+		B482284C1EFEAD8D0080F139 /* FanzinylServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48228451EFEACAA0080F139 /* FanzinylServiceTests.swift */; };
+		B482284E1EFEAD8D0080F139 /* fanzinyl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4AF8DF81EF6C8E7002BC5E8 /* fanzinyl.framework */; };
 		B4AF8E011EF6C8E7002BC5E8 /* fanzinyl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4AF8DF81EF6C8E7002BC5E8 /* fanzinyl.framework */; };
 		B4AF8E371EF6C957002BC5E8 /* fanzinyl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4AF8E2E1EF6C957002BC5E8 /* fanzinyl.framework */; };
-		B4AF8E591EF6CD83002BC5E8 /* StandardFangineServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AF8E581EF6CD83002BC5E8 /* StandardFangineServiceTests.swift */; };
-		B4AF8E5A1EF6CD83002BC5E8 /* StandardFangineServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AF8E581EF6CD83002BC5E8 /* StandardFangineServiceTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		B482284A1EFEAD8D0080F139 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4AF8DF71EF6C8E7002BC5E8;
+			remoteInfo = "fanzinyl-iOS";
+		};
 		B4AF8E021EF6C8E7002BC5E8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
@@ -71,7 +78,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B42299321EFE6AC600BEF0D8 /* fanzinyl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = fanzinyl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B42299321EFE6AC600BEF0D8 /* fanzinyl10.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = fanzinyl10.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B42299331EFE6AC600BEF0D8 /* fanzinyl-iOS copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "fanzinyl-iOS copy-Info.plist"; path = "/Users/jorge.moura/Developer/myProjs/github/fanzinyl/fanzinyl-iOS copy-Info.plist"; sourceTree = "<absolute>"; };
 		B42299371EFE70DC00BEF0D8 /* MusicService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicService.swift; sourceTree = "<group>"; };
 		B422993B1EFE710100BEF0D8 /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
@@ -86,13 +93,15 @@
 		B422995F1EFE91B500BEF0D8 /* ServiceIdentifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceIdentifier.swift; sourceTree = "<group>"; };
 		B482283D1EFEA2CB0080F139 /* FanzinylCommunicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FanzinylCommunicator.swift; sourceTree = "<group>"; };
 		B48228411EFEA2EF0080F139 /* StandardFanzinylCommunicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardFanzinylCommunicator.swift; sourceTree = "<group>"; };
+		B48228451EFEACAA0080F139 /* FanzinylServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FanzinylServiceTests.swift; sourceTree = "<group>"; };
+		B48228531EFEAD8D0080F139 /* fanzinyl-iOS10-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "fanzinyl-iOS10-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B48228541EFEAD8E0080F139 /* fanzinyl-iOS-Tests copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "fanzinyl-iOS-Tests copy-Info.plist"; path = "/Users/jorge.moura/Developer/myProjs/github/fanzinyl/fanzinyl-iOS-Tests copy-Info.plist"; sourceTree = "<absolute>"; };
 		B4AF8DF81EF6C8E7002BC5E8 /* fanzinyl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = fanzinyl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4AF8E001EF6C8E7002BC5E8 /* fanzinyl-iOS-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "fanzinyl-iOS-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4AF8E2E1EF6C957002BC5E8 /* fanzinyl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = fanzinyl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4AF8E361EF6C957002BC5E8 /* fanzinyl-tvOS-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "fanzinyl-tvOS-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4AF8E471EF6CAA7002BC5E8 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B4AF8E4D1EF6CABE002BC5E8 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B4AF8E581EF6CD83002BC5E8 /* StandardFangineServiceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandardFangineServiceTests.swift; sourceTree = "<group>"; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -101,6 +110,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B482284D1EFEAD8D0080F139 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B482284E1EFEAD8D0080F139 /* fanzinyl.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,6 +215,7 @@
 				OBJ_8 /* Tests */,
 				OBJ_9 /* Products */,
 				B42299331EFE6AC600BEF0D8 /* fanzinyl-iOS copy-Info.plist */,
+				B48228541EFEAD8E0080F139 /* fanzinyl-iOS-Tests copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -215,7 +233,7 @@
 		OBJ_8 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				B4AF8E581EF6CD83002BC5E8 /* StandardFangineServiceTests.swift */,
+				B48228451EFEACAA0080F139 /* FanzinylServiceTests.swift */,
 				B4AF8E461EF6CA82002BC5E8 /* Supporting Files */,
 			);
 			path = Tests;
@@ -228,7 +246,8 @@
 				B4AF8E001EF6C8E7002BC5E8 /* fanzinyl-iOS-Tests.xctest */,
 				B4AF8E2E1EF6C957002BC5E8 /* fanzinyl.framework */,
 				B4AF8E361EF6C957002BC5E8 /* fanzinyl-tvOS-Tests.xctest */,
-				B42299321EFE6AC600BEF0D8 /* fanzinyl.framework */,
+				B42299321EFE6AC600BEF0D8 /* fanzinyl10.framework */,
+				B48228531EFEAD8D0080F139 /* fanzinyl-iOS10-Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = BUILT_PRODUCTS_DIR;
@@ -275,8 +294,26 @@
 			);
 			name = "fanzinyl-iOS10";
 			productName = "fanzinyl-iOS";
-			productReference = B42299321EFE6AC600BEF0D8 /* fanzinyl.framework */;
+			productReference = B42299321EFE6AC600BEF0D8 /* fanzinyl10.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		B48228481EFEAD8D0080F139 /* fanzinyl-iOS10-Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B48228501EFEAD8D0080F139 /* Build configuration list for PBXNativeTarget "fanzinyl-iOS10-Tests" */;
+			buildPhases = (
+				B482284B1EFEAD8D0080F139 /* Sources */,
+				B482284D1EFEAD8D0080F139 /* Frameworks */,
+				B482284F1EFEAD8D0080F139 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B48228491EFEAD8D0080F139 /* PBXTargetDependency */,
+			);
+			name = "fanzinyl-iOS10-Tests";
+			productName = "fanzinyl-iOSTests";
+			productReference = B48228531EFEAD8D0080F139 /* fanzinyl-iOS10-Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		B4AF8DF71EF6C8E7002BC5E8 /* fanzinyl-iOS */ = {
 			isa = PBXNativeTarget;
@@ -363,6 +400,9 @@
 						DevelopmentTeam = 6CHZFW8V57;
 						LastSwiftMigration = 0900;
 					};
+					B48228481EFEAD8D0080F139 = {
+						DevelopmentTeam = 6CHZFW8V57;
+					};
 					B4AF8DF71EF6C8E7002BC5E8 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 6CHZFW8V57;
@@ -405,6 +445,7 @@
 				B4AF8DFF1EF6C8E7002BC5E8 /* fanzinyl-iOS-Tests */,
 				B4AF8E351EF6C957002BC5E8 /* fanzinyl-tvOS-Tests */,
 				B42299271EFE6AC600BEF0D8 /* fanzinyl-iOS10 */,
+				B48228481EFEAD8D0080F139 /* fanzinyl-iOS10-Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -415,6 +456,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				B422992E1EFE6AC600BEF0D8 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B482284F1EFEAD8D0080F139 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -469,6 +517,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B482284B1EFEAD8D0080F139 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B482284C1EFEAD8D0080F139 /* FanzinylServiceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B4AF8DF31EF6C8E7002BC5E8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -493,7 +549,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4AF8E591EF6CD83002BC5E8 /* StandardFangineServiceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -521,13 +576,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4AF8E5A1EF6CD83002BC5E8 /* StandardFangineServiceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		B48228491EFEAD8D0080F139 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B4AF8DF71EF6C8E7002BC5E8 /* fanzinyl-iOS */;
+			targetProxy = B482284A1EFEAD8D0080F139 /* PBXContainerItemProxy */;
+		};
 		B4AF8E031EF6C8E7002BC5E8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = B4AF8DF71EF6C8E7002BC5E8 /* fanzinyl-iOS */;
@@ -591,7 +650,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.jjorgemoura.fanzinyl;
-				PRODUCT_NAME = fanzinyl;
+				PRODUCT_NAME = fanzinyl10;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -649,7 +708,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.jjorgemoura.fanzinyl;
-				PRODUCT_NAME = fanzinyl;
+				PRODUCT_NAME = fanzinyl10;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
@@ -657,6 +716,104 @@
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B48228511EFEAD8D0080F139 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 6CHZFW8V57;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "fanzinyl-iOS-Tests copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jjorgemoura.fanzinyl.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B48228521EFEAD8D0080F139 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = 6CHZFW8V57;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "fanzinyl-iOS-Tests copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jjorgemoura.fanzinyl.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 3.0;
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -824,7 +981,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -870,7 +1026,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.jjorgemoura.fanzinyl.tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
-				SWIFT_VERSION = 4.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -1035,7 +1190,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_VERSION = 3.0;
 				TVOS_DEPLOYMENT_TARGET = 10.2;
 			};
 			name = Debug;
@@ -1080,7 +1234,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.jjorgemoura.fanzinyl.tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				SWIFT_VERSION = 3.0;
 				TVOS_DEPLOYMENT_TARGET = 10.2;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -1187,6 +1340,15 @@
 			buildConfigurations = (
 				B42299301EFE6AC600BEF0D8 /* Debug */,
 				B42299311EFE6AC600BEF0D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B48228501EFEAD8D0080F139 /* Build configuration list for PBXNativeTarget "fanzinyl-iOS10-Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B48228511EFEAD8D0080F139 /* Debug */,
+				B48228521EFEAD8D0080F139 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;

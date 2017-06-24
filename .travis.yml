@@ -6,7 +6,7 @@ xcode_sdk: iphonesimulator10.3
 xcode_project: fanzinyl.xcodeproj
 
 script:
-- xcodebuild -project fanzinyl.xcodeproj -scheme fanzinyl-iOS -configuration Debug -sdk iphonesimulator -destination "OS=10.3.1,name=iPhone 7" CODE_SIGNING_REQUIRED=NO clean build test analyze
+- xcodebuild -project fanzinyl.xcodeproj -scheme fanzinyl-iOS10 -configuration Debug -sdk iphonesimulator -destination "OS=10.3.1,name=iPhone 7" CODE_SIGNING_REQUIRED=NO clean build test analyze
 
 after_success:
 - bash <(curl -s https://codecov.io/bash) -J 'fanzinyl'
