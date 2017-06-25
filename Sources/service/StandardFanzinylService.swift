@@ -5,18 +5,26 @@
 //  Created by Jorge Moura on 24/06/2017.
 //
 
+import RxSwift
+
 public class StandardFanzinylService: FanzinylService {
 
-    public func findAlbum(with identifier: ServiceIdentifier) -> Album {
-        return fakeAlbum()
+    public let communicator: FanzinylCommunicator
+
+    public required init(with builder: FanzinylServiceBuilder) {
+        self.communicator = builder.communicator
     }
 
-    public func findAlbum(named name: String) -> [Album] {
+    public func findAlbum(with identifier: ServiceIdentifier) -> Observable<[Album]> {
+        return Observable<[Album]>.just([fakeAlbum()])
+    }
 
-        return [fakeAlbum(), fakeAlbum2()]
+    public func findAlbum(named name: String) -> Observable<[Album]> {
+        return Observable<[Album]>.just([fakeAlbum(), fakeAlbum2()])
     }
 
     // MARK: - Private methods
+    
     private func fakeAlbum() -> Album {
         let identifier: AlbumIdentifier = [.spotify: ServiceIdentifier("123456789")]
 

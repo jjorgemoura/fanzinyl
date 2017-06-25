@@ -4,6 +4,8 @@ import PackageDescription
 
 let package = Package(
     name: "fanzinyl",
-    dependencies : []
+    dependencies: [
+        .Package(url: "https://github.com/ReactiveX/RxSwift.git", majorVersion: 3)
+    ]
 //    exclude: ["Tests"]
 )

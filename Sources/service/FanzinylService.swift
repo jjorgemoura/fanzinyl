@@ -5,8 +5,14 @@
 //  Created by Jorge Moura on 24/06/2017.
 //
 
+import RxSwift
+
 public protocol FanzinylService {
 
-    func findAlbum(with identifier: ServiceIdentifier) -> Album
-    func findAlbum(named name: String) -> [Album]
+    var communicator: FanzinylCommunicator { get }
+
+    init(with builder: FanzinylServiceBuilder)
+
+    func findAlbum(with identifier: ServiceIdentifier) -> Observable<[Album]>
+    func findAlbum(named name: String) -> Observable<[Album]>
 }

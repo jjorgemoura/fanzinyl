@@ -5,6 +5,8 @@
 //  Created by Jorge Moura on 24/06/2017.
 //
 
-protocol FanzinylCommunicator {
+public protocol FanzinylCommunicator {
 
+    func findAlbum(with identifier: ServiceIdentifier) -> String
+    func findAlbum(named name: String) -> String
 }

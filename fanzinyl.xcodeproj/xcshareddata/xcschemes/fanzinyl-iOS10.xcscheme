@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B42299271EFE6AC600BEF0D8"
-               BuildableName = "fanzinyl.framework"
+               BuildableName = "fanzinyl10.framework"
                BlueprintName = "fanzinyl-iOS10"
                ReferencedContainer = "container:fanzinyl.xcodeproj">
             </BuildableReference>
@@ -45,7 +45,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B42299271EFE6AC600BEF0D8"
-            BuildableName = "fanzinyl.framework"
+            BuildableName = "fanzinyl10.framework"
             BlueprintName = "fanzinyl-iOS10"
             ReferencedContainer = "container:fanzinyl.xcodeproj">
          </BuildableReference>
@@ -68,7 +68,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B42299271EFE6AC600BEF0D8"
-            BuildableName = "fanzinyl.framework"
+            BuildableName = "fanzinyl10.framework"
             BlueprintName = "fanzinyl-iOS10"
             ReferencedContainer = "container:fanzinyl.xcodeproj">
          </BuildableReference>
@@ -86,7 +86,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B42299271EFE6AC600BEF0D8"
-            BuildableName = "fanzinyl.framework"
+            BuildableName = "fanzinyl10.framework"
             BlueprintName = "fanzinyl-iOS10"
             ReferencedContainer = "container:fanzinyl.xcodeproj">
          </BuildableReference>
